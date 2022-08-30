@@ -1,0 +1,174 @@
+*{padding: 0;margin: 0;border: 0;}
+*,*:before,:after{-moz-box-sizing: borderbox;-webkit-box-sizing: border-box;box-sizing: border-box;}
+:focus,:active{outline: none}
+a:focus,a:active{outline: none;}
+nav,footer,header,aside{display: block;}
+html,body{height: 100%;width: 100%;font-size: 100%;line-height: 1;font-size: 14px;-ms-text-size-adjust: 100%;-moz-text-size-adjust: 100%;-webkit-text-size-adjust: 100%;}
+input,button,textarea{font-family: inherit;}
+input::-ms-clear{display: none;}
+button{cursor: pointer;}
+button:-moz-focus-inner{padding: 0;border: 0;}
+a,a:visited{text-decoration: none; display: inline-block;}
+a:hover{text-decoration: none; display: inline-block;}
+/* ul li{list-style: none;} */
+img{vertical-align: top;}
+h1,h2,h3,h4,h5,h6{font-size: inherit;font-weight: 400;}
+
+h3 {
+	margin: 2px 0px 7px -1px;
+	font-size: 18px;
+	font-weight: bold;
+}
+p {
+	margin-left: -3px;
+}
+h1 {
+	padding: 10px;
+	font-weight: bold;
+	font-size: 30px;
+	color: #29293d;
+}
+li {
+	margin-left: 15px;
+}
+.wrapper {
+padding: 0px;
+min-height: 100%;
+font-family: sans-serif;
+font-family: 'Roboto', sans-serif;
+}
+.container {
+
+}
+.two-blocks {
+	display: flex;
+}
+.left__block {
+	color: #fff;
+	background-color: #666699;
+	width: 300px;
+}
+.left__block h4{
+	padding: 4px;
+	font-size: 15px;
+	font-weight: bold;
+}
+.left__block-item {
+padding: 10px 0px 0px 5px;
+position: relative;
+}
+.block-photo img{
+	max-width: 140px;
+	max-height: 140px;
+	border-radius:100%;
+	position: relative;
+	right: 4px;
+	margin: 0px 0px 10px 10px;
+
+}
+.left__block-pers {
+	margin: 0px 10px 0px 6px;
+}
+.left__block-leng {
+	display: flex;
+	justify-content: space-between;
+	padding: 3px 10px 0px 6px;
+}
+.left__block-inter div{
+	padding: 5px 0px 0px 7px;
+	line-height: 12px;
+}
+.right__block {
+	padding: 10px;
+}
+.right__block div {
+	padding-bottom: 5px;
+}
+.right__block h3{
+	padding: 0px 10px 0px 10px;
+	font-weight: bold;
+}
+.right__block-about {
+	color: #404040;
+	line-height: 16px;
+}
+.right__block-skills {
+	display: flex;
+	color: #262626;
+	font-weight: bold;
+}
+.range {
+	position: relative;
+	/* border: 1px solid yellow; */
+	/* border-radius: 20%; */
+	background-color: #d1b3ff;
+	top: -6px;
+	margin: 12.6px 0px 0px 25px;
+	width: 200px;
+	height: 5.5px;
+}
+.range_react div{
+	width: 25%;
+	background-color: #6600ff;
+	/* border: 1px solid #6600ff; */
+}
+.range_html div{
+	width: 70%;
+	background-color: #6600ff;
+}
+.range_css div{
+	width: 60%;
+	background-color: #6600ff;
+}
+.range_js div{
+	width: 70%;
+	background-color: #6600ff;
+}
+.range_git div{
+	width: 60%;
+	background-color: #6600ff;
+}
+.range_node div{
+	width: 30%;
+	background-color: #6600ff;
+}
+.range_vscode div{
+	width: 70%;
+	background-color: #6600ff;
+}
+.range_moral div{
+	width: 95%;
+	background-color: #6600ff;
+}
+.range_ch div{
+	width: 95%;
+	background-color: #6600ff;
+}
+.range_strg-pers div{
+	width: 60%;
+	background-color: #6600ff;
+}
+.range_strg-plan div{
+	width: 85%;
+	background-color: #6600ff;
+}
+.right__block-course {
+	margin-bottom: 10px;
+}
+.right__block-course p:last-child{
+	padding-bottom: 20px;
+}
+.name-course {
+	font-weight: bold;
+}
+.course {
+	display: flex;
+	justify-content: space-between;
+	margin-bottom: -3px;
+}
+.name-comp {
+	font-style: italic;
+}
+.about-course {
+	color: #808080;
+}
